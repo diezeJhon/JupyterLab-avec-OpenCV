@@ -4,6 +4,13 @@ Ce projet configure un environnement Docker combinant OpenCV et JupyterLab pour 
 
 ---
 
+## 🛠️ Prérequis
+
+- **Docker Desktop** : Téléchargez et installez [Docker Desktop](https://www.docker.com/products/docker-desktop) pour votre système d'exploitation (Windows, macOS ou Linux).
+- installer git
+  
+
+
 ## 🛠️ Fonctionnalités
 
 - **OpenCV 4.9.0** préinstallé.
@@ -90,7 +97,7 @@ Etape 2 pull le repo github
 ```
 git clone https://github.com/diezeJhon/MachineLearning.git
 ```
-Etape 3 : lancer la commande suivante à la racine du dossier cloner:
+Etape 3 : lancer la commande suivante à la racine du dossier cloner en powershell:
 ``` bash 
 docker run -it --rm `
   -p 8888:8888 `
@@ -100,6 +107,10 @@ docker run -it --rm `
 ```
 Etape 4 : rendez vous sur 
 http://localhost:8888/
+
+password par default = UIMM
+
+Puis accédez au dossier ./Notebooks, ouvrez le fichier souhaité, et exécutez les cellules. Si vous rencontrez un problème, relancez la première cellule.
 
 password par default = UIMM
 
