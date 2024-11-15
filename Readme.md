@@ -84,11 +84,11 @@ docker push diezejhon/machinelearning-jupyter-lab:tagname
 Étape 1 : Télécharger l'Image Docker depuis Docker Hub
 Téléchargez l'image avec la commande suivante :
 ```bash
-docker pull diezejhon/machinelearning-jupyter-lab:tagname
+docker pull diezejhon/machinelearning-jupyter-lab:latest
 ```
 Etape 2 pull le repo github 
 ```
-https://github.com/diezeJhon/MachineLearning.git
+git clone https://github.com/diezeJhon/MachineLearning.git
 ```
 Etape 3 : lancer la commande suivante à la racine du dossier cloner:
 ``` bash 
