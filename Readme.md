@@ -97,7 +97,7 @@ Etape 2 pull le repo github
 ```
 git clone https://github.com/diezeJhon/MachineLearning.git
 ```
-Etape 3 : lancer la commande suivante à la racine du dossier cloner:
+Etape 3 : lancer la commande suivante à la racine du dossier cloner en powershell:
 ``` bash 
 docker run -it --rm `
   -p 8888:8888 `
