@@ -100,3 +100,7 @@ docker run -it --rm `
 ```
 Etape 4 : rendez vous sur 
 http://localhost:8888/
+
+password par default = UIMM
+
+Puis accédez au dossier ./Notebooks, ouvrez le fichier souhaité, et exécutez les cellules. Si vous rencontrez un problème, relancez la première cellule.
