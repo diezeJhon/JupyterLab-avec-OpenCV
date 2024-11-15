@@ -95,7 +95,7 @@ docker pull diezejhon/machinelearning-jupyter-lab:latest
 ```
 Etape 2 pull le repo github 
 ```
-git clone https://github.com/diezeJhon/MachineLearning.git
+git clone https://github.com/diezeJhon/JupyterLab-avec-OpenCV.git
 ```
 Etape 3 : lancer la commande suivante à la racine du dossier cloner en powershell:
 ``` bash 
