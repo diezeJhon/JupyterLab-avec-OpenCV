@@ -107,3 +107,4 @@ docker run -it --rm `
 ```
 Etape 4 : rendez vous sur 
 http://localhost:8888/
+Password or token : UIMM
