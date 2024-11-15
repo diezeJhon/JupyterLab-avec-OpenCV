@@ -7,6 +7,8 @@ Ce projet configure un environnement Docker combinant OpenCV et JupyterLab pour 
 ## 🛠️ Prérequis
 
 - **Docker Desktop** : Téléchargez et installez [Docker Desktop](https://www.docker.com/products/docker-desktop) pour votre système d'exploitation (Windows, macOS ou Linux).
+- installer git
+  
 
 
 ## 🛠️ Fonctionnalités
