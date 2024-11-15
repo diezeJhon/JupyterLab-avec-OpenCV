@@ -86,7 +86,11 @@ Téléchargez l'image avec la commande suivante :
 ```bash
 docker pull diezejhon/machinelearning-jupyter-lab:tagname
 ```
-Etape 2 : lancer la commande suivante:
+Etape 2 pull le repo github 
+```
+https://github.com/diezeJhon/MachineLearning.git
+```
+Etape 3 : lancer la commande suivante à la racine du dossier cloner:
 ``` bash 
 docker run -it --rm `
   -p 8888:8888 `
@@ -94,5 +98,5 @@ docker run -it --rm `
   --name jupyter_lab_opencv `
   diezejhon/machinelearning-jupyter-lab:latest
 ```
-Etape 3 : rendez vous sur 
+Etape 4 : rendez vous sur 
 http://localhost:8888/
