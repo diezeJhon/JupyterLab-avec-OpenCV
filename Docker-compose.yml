@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  jupyter-lab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jupyter_lab_opencv
+    ports:
+      - "8888:8888" # Redirection du port pour Jupyter Lab
+    volumes:
+      - ./TP1:/root/work # Monter le répertoire local pour vos TP
+    environment:
+      GRANT_SUDO: "yes"
+      JUPYTER_ENABLE_LAB: "yes"
+    init: true
+    tty: true

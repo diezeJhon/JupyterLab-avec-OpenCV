@@ -1,0 +1,5 @@
+keras==2.13.1  # Remplacez par la version compatible avec votre projet
+tensorflow==2.13.1  # Nécessaire pour Keras
+numpy==1.23.5  # Pour les manipulations de tableaux
+opencv-python==4.8.0.74  # Pour le traitement d'image avec OpenCV
+pandas==1.5.3  # Pour la manipulation de données avec pandas
